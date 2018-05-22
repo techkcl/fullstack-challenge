@@ -47,14 +47,14 @@ La información obtenida por el scraper (en la sección anterior) debe ser almac
 La información ontenida por el scraper debe ser presentada en forma de tabla. El diseño queda a libre elección del desarrollador.
 
 ¿Qué considera?
-* Un botón que inicie/ejecute el scraper para obtner los datos del sitio web(*)
+* Un botón que inicie/ejecute el scraper para obtener los datos del sitio web(*)
 * Un listado de Categorías obtenidas por el scrapers.
 * Al seleccionar una categoría, la tabla sólo mostrará libros de esa categoría
 * La tabla debe tener un buscador por los atributos que posee
 * Se debe poder eliminar registros de la tabla que se presente
 
 Notas:
-(*): Si no se dispone de los datos obtenidos por el scraper, debido a la no realización de esta etapa, los datos deben ser ser cargados desde un archivo en formato json. Este archivo debe contener la informaci´ón minima para la interfaz web funciona correctamente, es decir:
+(*): Si no se dispone de los datos obtenidos por el scraper, debido a la no realización de esta etapa, los datos deben ser ser cargados desde un archivo en formato json. Este archivo debe contener la información mínima para que la interfaz web funcione correctamente, es decir:
 * Al menos 3 categorías
 * Al menos 5 libros por categoría
 * Estructura del archivo JSON es de la siguiente forma:
@@ -91,14 +91,14 @@ Notas:
 ## Restricciones
 ---
 * No se debe usar el Admin de Django
-* Usar ORM de Django (no row queries)
+* Usar ORM de Django (no raw queries)
 
 
 ## Bonus
 ---
-* Uso de alguna librería en el frontend. Ideal React
-* Webscraping usando la librería Requests y BeautifulSoup
-* Uso Django Rest Framework para la comunicación entre frontend y backend
+* Uso de alguna librería en el frontend. Idealmente `React`
+* Webscraping usando la librería `Requests` y `BeautifulSoup`
+* Uso de `Django Rest Framework` para la comunicación entre frontend y backend
 * Uso de test (unittest)
 
 
