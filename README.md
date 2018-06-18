@@ -37,6 +37,7 @@ Se requiere obtener del [sitio web](http://books.toscrape.com/index.html) la sig
   * Product Description
   * UPC
 
+***Nota:*** Se recomienda usar las librerías [Requests](http://docs.python-requests.org/en/master/) y [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para resolver este punto.
 
 ### *Backend*
 
@@ -53,7 +54,7 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 * La tabla debe tener un buscador por los atributos que posee
 * Se debe poder eliminar registros de la tabla que se presente
 
-Notas:
+***Notas:***
 (*): Si no se dispone de los datos obtenidos por el scraper, debido a la no realización de esta etapa, los datos deben ser ser cargados desde un archivo en formato json. Este archivo debe contener la información mínima para que la interfaz web funcione correctamente, es decir:
 * Al menos 3 categorías
 * Al menos 5 libros por categoría
