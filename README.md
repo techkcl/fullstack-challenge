@@ -10,7 +10,7 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
 2. Instalar cliente de [Docker](https://www.docker.com/)
 3. Instalar [Docker Compose](https://docs.docker.com/compose/)
 4. Levantar el proyecto:
-    * `cd path/to/project/fullstack`
+    * `$ cd path/to/project/fullstack/techk`
     * `$ docker-compose up`
     * Verificar correcto funcionamiento en [http://localhost:8000/](http://localhost:8000/)
 5. Desarrollar lo que se indica. Si existen supuestos, estos deben definirse claramente en el README
