@@ -25,7 +25,7 @@ SECRET_KEY = '8x^ea1)kmvp_=#39=rb#c!wyxt(^io0n2j6qwb0cn_6sf*8_(%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

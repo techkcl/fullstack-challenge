@@ -1,4 +1,4 @@
-# Test Fullstack Teck-K
+# Test Fullstack Tech-K
 
 ## Objetivo
 ---
@@ -13,13 +13,13 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
     * `cd path/to/project/fullstack`
     * `$ docker-compose up`
     * Verificar correcto funcionamiento en [http://localhost:8000/](http://localhost:8000/)
-5. Desarrollar lo que se indica. Si existen supuestos, estos deben definirse claramente
+5. Desarrollar lo que se indica. Si existen supuestos, estos deben definirse claramente en el README
 6. Entregar desarrollo por medio de un pull-request y notificar envío por email
 
 
 ## Instrucciones de desarrollo
 ---
-Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interaz web. 
+Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web. 
 
 Lo anterior será bajo el uso del framework [Django 2.0.5](https://www.djangoproject.com/).
 
@@ -44,7 +44,7 @@ La información obtenida por el scraper (en la sección anterior) debe ser almac
 
 ### *Frontend*
 
-La información ontenida por el scraper debe ser presentada en forma de tabla. El diseño queda a libre elección del desarrollador.
+La información obtenida por el scraper debe ser presentada en forma de tabla. El diseño queda a libre elección del desarrollador.
 
 ¿Qué considera?
 * Un botón que inicie/ejecute el scraper para obtener los datos del sitio web(*)
@@ -79,11 +79,10 @@ Notas:
             "title": "It's Only the Himalayas",
             "thumbnail_url": "http://books.toscrape.com/media/cache/6d/41/6d418a73cc7d4ecfd75ca11d854041db.jpg",
             "price": "£45.17",
-            "stock": True,
+            "stock": true,
             "product_description": "Wherever you go, whatever you do, just ...",
             "upc": "a22124811bfa8350"
-        },
-        ...
+        }
     ]
 }]
 ```
@@ -99,7 +98,7 @@ Notas:
 * Uso de alguna librería en el frontend. Idealmente `React`
 * Webscraping usando la librería `Requests` y `BeautifulSoup`
 * Uso de `Django Rest Framework` para la comunicación entre frontend y backend
-* Uso de test (unittest)
+* Uso de test (unittest con [pytest](https://docs.pytest.org/en/latest/))
 
 
 ## En qué nos fijaremos 
