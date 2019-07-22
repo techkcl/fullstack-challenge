@@ -92,7 +92,7 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 ---
 * No se debe usar el Admin de Django
 * Usar ORM de Django (no raw queries)
-* Si entregas la prueba con una sólo commit, no la revisaremos. El correcto uso de GIT es importante para nosotros
+* Si entregas la prueba con un sólo commit, no la revisaremos. El correcto uso de GIT es importante para nosotros
 
 
 ## Bonus
