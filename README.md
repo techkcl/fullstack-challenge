@@ -57,7 +57,7 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 * Se debe poder eliminar registros de la tabla que se presente
 
 ***Notas:***
-(*): Si no se dispone de los datos obtenidos por el scraper, debido a la no realización de esta etapa, los datos deben ser ser cargados desde un archivo en formato json. Este archivo debe contener la información mínima para que la interfaz web funcione correctamente, es decir:
+(*): Si no se dispone de los datos obtenidos por el scraper, debido a la no realización de esta etapa, los datos deben ser cargados desde un archivo en formato json. Este archivo debe contener la información mínima para que la interfaz web funcione correctamente, es decir:
 * Al menos 3 categorías
 * Al menos 5 libros por categoría
 * Estructura del archivo JSON es de la siguiente forma:
