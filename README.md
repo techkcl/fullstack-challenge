@@ -6,20 +6,22 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
 
 ## Instrucciones de uso
 ---
-1. Hacer un fork del proyecto
-2. Instalar cliente de [Docker](https://www.docker.com/)
-3. Instalar [Docker Compose](https://docs.docker.com/compose/)
-4. Levantar el proyecto:
+1. [Duplica](https://help.github.com/es/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) el proyecto
+2. Cambiar su [visibilidad](https://help.github.com/es/github/administering-a-repository/setting-repository-visibility) a privado
+3. Agrega al usuario `techk-devs` como colaborador dentro del repositorio
+4. Instalar cliente de [Docker](https://www.docker.com/)
+5. Instalar [Docker Compose](https://docs.docker.com/compose/)
+6. Levantar el proyecto:
     * `$ cd path/to/project/fullstack/techk`
     * `$ docker-compose up`
     * Verificar correcto funcionamiento en [http://localhost:8000/](http://localhost:8000/)
-5. Desarrollar lo que se indica. Si existen supuestos, estos deben definirse claramente en el README
-6. Entregar desarrollo por medio de un pull-request y notificar envío por email
+7. Desarrollar lo que se indica. Si existen supuestos, estos deben definirse claramente en el README
+8. Notificar mediante email cuando este listo y enviar el link del repositorio privado.
 
 
 ## Instrucciones de desarrollo
 ---
-Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web. 
+Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web.
 
 Lo anterior será bajo el uso del framework [Django 2.0.5](https://www.djangoproject.com/).
 
@@ -103,7 +105,7 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 * Uso de test (unittest con [pytest](https://docs.pytest.org/en/latest/))
 
 
-## En qué nos fijaremos 
+## En qué nos fijaremos
 ---
 * Correcto uso del ORM
 * Correcto modelamiento la BBDD
