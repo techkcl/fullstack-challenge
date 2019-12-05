@@ -23,7 +23,7 @@ Por medio de este test se evaluarán algunos de tus conocimientos que nos intere
 ---
 Desarrollar un scraper que permita obtener información de [esta página web](http://books.toscrape.com/index.html), almacenarla en BBDD y luego visualizarla en una interfaz web.
 
-Lo anterior será bajo el uso del framework [Django 2.0.5](https://www.djangoproject.com/).
+Lo anterior será bajo el uso del framework [Django 2.0.13](https://www.djangoproject.com/).
 
 ### *Web Scraping*
 
