@@ -94,14 +94,14 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 ---
 * No se debe usar el Admin de Django
 * Usar ORM de Django (no raw queries)
+* Uso de `Django Rest Framework` para la comunicación entre frontend y backend
 * Si entregas la prueba con un sólo commit, no la revisaremos. El correcto uso de GIT es importante para nosotros
 
 
 ## Bonus
 ---
-* Uso de alguna librería en el frontend. Idealmente `React`
+* Uso de alguna librería en el frontend. Idealmente `Vue` o `React`
 * Webscraping usando la librería `Requests` y `BeautifulSoup`
-* Uso de `Django Rest Framework` para la comunicación entre frontend y backend
 * Uso de test (unittest con [pytest](https://docs.pytest.org/en/latest/))
 
 
@@ -109,7 +109,8 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 ---
 * Correcto uso del ORM
 * Correcto modelamiento la BBDD
-* Correcto uso de GIT
+* Correcto uso de GIT (no 9999 commit, no 1 commit y textos de los commits acorde al contenido)
 * Patrones de diseño
-* Orden del código
+* Orden del código (nombres, identación, principio de única responsabiilidad, etc)
+* Complejidad de la implentación (más simple es mejor)
 
