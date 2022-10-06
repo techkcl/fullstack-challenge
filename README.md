@@ -92,6 +92,7 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 
 ## Restricciones
 ---
+* Uso de alguna librería en el frontend. Idealmente `Vue` o `React`
 * No se debe usar el Admin de Django
 * Usar ORM de Django (no raw queries)
 * Uso de `Django Rest Framework` para la comunicación entre frontend y backend
@@ -100,7 +101,6 @@ La información obtenida por el scraper debe ser presentada en forma de tabla. E
 
 ## Bonus
 ---
-* Uso de alguna librería en el frontend. Idealmente `Vue` o `React`
 * Webscraping usando la librería `Requests` y `BeautifulSoup`
 * Uso de test (unittest con [pytest](https://docs.pytest.org/en/latest/))
 
